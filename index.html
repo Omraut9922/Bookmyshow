@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK MY SHOW</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fonts links -->
+</head>
+<body>
+ <header>
+    <!-- top navbar -->
+    <div class="top-navbar fixed-top">
+        <p>BOOK YOUR SHOW </p>
+        <div class="icons">
+            <a href="login.html"><img src="./images/register.png" alt="" width="18px">Login</a>
+            <a href="register.html"><img src="./images/register.png" alt="" width="18px">Register</a>
+        </div>
+    </div>
+    <!-- top navbar -->
+
+    <!-- navbar -->
+     
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo"><span id="span1">B</span>ook <span>y</span>our <span>t</span>icket</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="./images/menu.png" alt="" width="30px"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Movies</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 movie Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(128, 3, 3);">
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Triller</a></li>
+                  <li><a class="dropdown-item" href="#">drama</a></li>
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><a class="dropdown-item" href="#">comedy</a></li>
+                  <li><a class="dropdown-item" href="#">Animation</a></li>
+                  <li><a class="dropdown-item" href="#">Advanture</a></li>
+                  <li><a class="dropdown-item" href="#">Science fiction</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart<i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">register</a>
+              </li>
+            </ul>
+            <form class="d-flex" id="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar -->
+    
+
+
+
+
+
+
+    
+    <!-- home content -->
+    <section class="home">
+    <div class="content">
+      <h1> <span>Marvel movies </span>
+        <br>
+        Up To <span id="span2">40%</span> Off
+      </h1>
+      <div class="btn"><button onclick="location.href='cart.html'">Book Now</button></div>
+
+    </div>
+    <div class="img">
+      <img src="./images/marvel.jpg" alt="">
+    </div>
+  </section>
+    <!-- home content -->
+
+
+
+
+
+
+
+
+    <!-- product cards -->
+    <div class="container" id="product">
+      <h1 class="text-center"> BOOK YOUR FAVORITE MOVIES</h1>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/animal.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Animal</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>RS 180<span><div class="product"></span></h2>
+                  <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/avatar.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center"  >avatar</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>RS 150</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/wood.jpeg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Wood</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>RS 220 </h2><span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/dune.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Dune</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>Rs 250 <span></h2>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/car4.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Cars 4</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>Rs 210</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/panda.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Kung fu panda 4</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>Rs 200</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/aquaman.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">aquaman 2</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>Rs 160</h2><span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/GodzillaAndKong.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">GodzillaAndKong</h3>
+              
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>Rs 120</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product cards -->
+
+
+
+
+
+
+
+
+
+    <!-- other cards -->
+    <div class="container" id="other-cards">
+      <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/p1.jpg" alt="">
+            <div class="card-img-overlay">
+              <h3>Best movie of this week</h3>
+              <h5>oblivion</h5>
+              <p>Up To 50% Off</p>
+              <button id="shopnow">book Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/kala.jpg" alt="">
+            <div class="card-img-overlay">
+              <h3>Best Moive of <br>this month</h3>
+              <h5>kala</h5>
+              <p>Up To 50% Off</p>
+              <button id="shopnow" onclick="location.href='cart.html'">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- other cards -->
+   
+
+
+
+
+
+
+   <!-- banner -->
+   <section class="banner">
+    <div class="content">
+      <h1> <span>Horror MOVIES</span>
+        <br>
+        Up To <span id="span2">60%</span> Off
+      </h1>
+      
+      <div class="btn"><button onclick="location.href='cart.html'">BOOK NOW</button></div>
+
+    </div>
+    <div class="img">
+      <img src="./images/hb.jpg" alt="">
+    </div>
+  </section>
+  <!-- banner -->
+
+
+
+
+
+
+
+
+
+    <!-- product cards -->
+    <div class="container" id="product-cards">
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/hidden.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Hidden</h3>
+              
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>Rs<s> 210</s>100</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/nightmare.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Night Mare</h3>
+              
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>Rs<s> 200</s>150</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/darkalone.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Dark Alone</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>
+              </div>
+              <h2>Rs<s> 200</s>100</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/conjuring.jpeg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">The conjuring</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>Rs<s> 350</s>150</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>  </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- banner -->
+    <section class="banner">
+      <div class="content">
+        <h1> <span>DC MOVIES</span>
+          <br>
+          Up To <span id="span2">35%</span> Off
+        </h1>
+        
+        <div class="btn"><button onclick="location.href='cart.html'">BOOK NOW</button></div>
+  
+      </div>
+      <div class="img">
+        <img src="./images/dc.png" alt="">
+      </div>
+    </section>
+    <!-- banner -->
+
+
+    <!-- product cards -->
+    <div class="container" id="product-cards">
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/tdk.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">The dark night</h3>
+              
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+               
+              </div>
+              <h2>Rs<s> 210</s>100</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>   </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/the flash.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">The flash</h3>
+              
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+               
+              </div>
+              <h2>Rs<s> 200</s>150</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>   </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/blackadam.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Black adam</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="bi bi-star-half checked"></i>  
+              </div>
+              <h2>Rs<s> 200</s>100</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>  </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/wol.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">The wolverine</h3>
+
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>Rs<s> 350</s>150</h2> <span>
+                <button class="btn-outline-primary add-to-cart" onclick="location.href='cart.html'">Book ticket</button>   </span>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+
+     <!-- offer -->
+     <div class="container" id="offer">
+      <div class="row">
+        <div class="col-md-3 py-3 py-md-0">
+          <i class=" bi bi-book-half"></i>
+          <h3>Fast booking</h3>
+          <p></p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="bi bi-wallet2"></i>
+          <h3>Payment methods</h3>
+          <p>different types</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="bi bi-camera-reels"></i>
+          <h3>Every movie are available</h3>
+          <p></p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="bi bi-bar-chart"></i>
+          <h3>Easy to use</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <!-- offer -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+
+</body>
+</html>
