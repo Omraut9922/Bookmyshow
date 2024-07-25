@@ -10,7 +10,7 @@ Add to Cart: Users can add selected movie tickets to their cart and proceed to c
 
 ## Technologies Used
 
-JavaScript: Handles the dynamic functionality of the application, including the add-to-cart logic.
-Bootstrap: Provides a responsive layout and pre-designed components to create a modern and user-friendly interface.
-HTML: Structures the content of the web application.
-CSS: Styles the application to enhance the user experience.
+- JavaScript: Handles the dynamic functionality of the application, including the add-to-cart logic.
+- Bootstrap: Provides a responsive layout and pre-designed components to create a modern and user-friendly interface.
+- HTML: Structures the content of the web application.
+- CSS: Styles the application to enhance the user experience.
