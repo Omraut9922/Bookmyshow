@@ -4,9 +4,9 @@ Welcome to the **Book My Show Clone** repository! This project is a web applicat
 
 ## Features
 
-Browse Movies: Users can view a list of available movies along with their details such as release date, genre, and rating.
-Select Showtimes: Users can choose from available showtimes for each movie.
-Add to Cart: Users can add selected movie tickets to their cart and proceed to checkout.
+- Browse Movies: Users can view a list of available movies along with their details such as release date, genre, and rating.
+- Select Showtimes: Users can choose from available showtimes for each movie.
+- Add to Cart: Users can add selected movie tickets to their cart and proceed to checkout.
 
 ## Technologies Used
 
